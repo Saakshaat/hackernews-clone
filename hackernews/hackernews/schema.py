@@ -1,6 +1,6 @@
 import graphene
 
-import hackernews.links.schemas as link_schema
+import links.schema as link_schema
 
 
 class Query(link_schema.Query, graphene.ObjectType):
